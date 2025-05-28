@@ -14,7 +14,7 @@ A reusable, customizable code editor web component built on [Monaco Editor](http
 
 ## 📦 Installation
 ```bash
-npm install code-editor
+npm install code-editor-component
 ```
 
 ## 🚀 Usage
@@ -22,7 +22,7 @@ npm install code-editor
 ### Import in Your JavaScript
 
 ```js
-import 'code-editor'; // Automatically registers <code-editor> and subcomponents
+import 'code-editor-component'; // Automatically registers <code-editor> and subcomponents
 ```
 
 ### Add Monaco Editor (Required)
@@ -48,19 +48,6 @@ In your HTML (usually in `<head>`):
 | `theme`       | String | dark        | `"light"` or `"dark"` theme         |
 
 - Language choices: `javascript`, `typescript`, `python`, `java`, `csharp`, `php`
-
-
-## 🖥️ Demo
-
-Clone this repo and run a local web server inside the `demo/` folder:
-
-```bash
-git clone https://github.com/andreimihaionica/code-editor.git
-cd code-editor/demo
-npx serve .
-# or use Python: python -m http.server 8000
-```
-Then open `http://localhost:8000` in your browser.
 
 ## 🛠️ Development
 

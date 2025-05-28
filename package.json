@@ -1,5 +1,5 @@
 {
-  "name": "code-editor",
+  "name": "code-editor-component",
   "version": "1.0.0",
   "description": "A reusable, customizable code editor web component based on Monaco Editor.",
   "main": "src/index.js",
